@@ -57,13 +57,13 @@ int exe04(){
 
     //Declare um array de caracteres palavra com 10 posições. Leia uma palavra do usuário usando cin e armazene-a em palavra. Imprima a palavra usando cout.
 
-    char palavra[11];
+    char palavra[10];
 
     cout << "Digite uma palavra (máx 10 caracteres): ";
-    cin >> palavra[11];
+    cin >> palavra;
 
-    cout << palavra[0] << palavra[1] << palavra[2] << palavra[3] << palavra[4] << palavra[5] << palavra[6] << palavra[7] << palavra0]
-
+    //cout << palavra[0] << palavra[1] << palavra[2] << palavra[3] << palavra[4] << palavra[5] << palavra[6] << palavra[7] << palavra[8] << palavra [9] << palavra [10];
+    cout << "A palavra digitada é: " << palavra <<std::endl;
 
     return 0;
 }
