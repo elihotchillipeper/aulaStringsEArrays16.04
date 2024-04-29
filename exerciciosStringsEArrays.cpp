@@ -88,6 +88,38 @@ int exe06(){
     //Armazene manualmente os números de 1 a 10 nas posições do array. Imprima os números pares do array em linhas separadas usando cout.
 
     int numeros[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+
+    if(numeros[0] % 2 == 0) {
+        cout << numeros[0] << endl;
+    }
+    if(numeros[1] % 2 == 0) {
+        cout << numeros[1] << endl;
+    }
+    if(numeros[2] % 2 == 0) {
+        cout << numeros[2] << endl;
+    }
+    if(numeros[3] % 2 == 0) {
+        cout << numeros[3] << endl;
+    }
+    if(numeros[4] % 2 == 0) {
+        cout << numeros[4] << endl;
+    }
+    if(numeros[5] % 2 == 0) {
+        cout << numeros[5] << endl;
+    }
+    if(numeros[6] % 2 == 0) {
+        cout << numeros[6] << endl;
+    }
+    if(numeros[7] % 2 == 0) {
+        cout << numeros[7] << endl;
+    }
+    if(numeros[8] % 2 == 0){
+        cout << numeros[8] << endl;
+    } 
+    if(numeros[9] % 2 == 0) {
+        cout << numeros[9] << endl;
+    }
+
     
 
     return 0;
@@ -283,8 +315,88 @@ int exe12(){
     return 0;
 }
 
+int exe13(){
+
+    //Declare um array de caracteres texto com 50 posições. Leia um texto do usuário usando cin e armazene-o em texto.
+    //Encontre a primeira ocorrência da letra 'a' no texto e imprima a posição da letra.
+
+    char texto[15];
+
+    cout << "Digite um texto: ";
+    cin.getline(texto, 15);
+
+    if(texto[0] == 'a'){
+        cout << "Primeiro caractere" << endl;
+    } else if(texto[1] == 'a'){
+        cout << "Segundo caractere" << endl;
+    } else if(texto[2] == 'a'){
+        cout << "Terceiro caractere" << endl;
+    } else if(texto[3] == 'a'){
+        cout << "Quarto caractere" << endl;
+    } else if(texto[4] == 'a'){
+        cout << "Quinto caractere" << endl;
+    } else if(texto[5] == 'a'){
+        cout << "Sexto caractere" << endl;
+    } else if(texto[6] == 'a'){
+        cout << "Sétimo caractere" << endl;
+    } else if(texto[7] == 'a'){
+        cout << "Oitavo caractere" << endl;
+    } else if(texto[8] == 'a'){
+        cout << "Nono caractere" << endl;
+    } else if(texto[9] == 'a'){
+        cout << "Décimo caractere" << endl;
+    } else if(texto[10] == 'a'){
+        cout << "Décimo Primeiro caractere" << endl;
+    } else if(texto[11] == 'a'){
+        cout << "Décimo Segundo caractere" << endl;
+    } else if(texto[12] == 'a'){
+        cout << "Décimo Terceiro caractere" << endl;
+    } else if(texto[13] == 'a'){
+        cout << "Décimo Quarto caractere" << endl;
+    } else if(texto[14] == 'a'){
+        cout << "Décimo Quinto caractere" << endl;
+    }
 
 
+    return 0;
+}
+
+
+int exe14(){
+
+    //Declare um array de caracteres palavra com 10 posições. Leia uma palavra do usuário usando cin e armazene-a em palavra.
+    //Inverta a ordem dos caracteres da palavra e imprima a palavra invertida usando cout.
+
+    char palavra[10];
+
+    cout << "Digite uma palavra";
+    cin >> palavra;
+
+
+
+
+
+    return 0;
+}
+
+
+int exe15(){
+
+    //Declare um array de caracteres frase com 20 posições. Leia uma frase do usuário usando cin e armazene-a em frase. Substitua todas as vogais da frase por '*'.
+    //Imprima a frase com as vogais substituídas usando cout.
+
+    char frase[20];
+
+    cout << "Digite uma frase: ";
+    cin >> frase;
+
+    if(frase[0] == 'a' || frase[0] == 'e' || frase[0] == 'i' || frase[0] == 'o' || frase[0] == 'u')
+
+    vec.insert(vec.begin() + 1, "laranja")
+
+
+    return 0;
+}
 
 
 
@@ -307,8 +419,9 @@ int main(){
     //exe09();
     //exe10();
     //exe11();
-    exe12();
+    //exe12();
+    //exe13();
+    //exe14();
+    exe15();
 
-
-
-}
+    }
