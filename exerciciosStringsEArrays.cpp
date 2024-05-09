@@ -579,13 +579,27 @@ int exe20(){
     //Leia uma frase do usuário usando cin e armazene-a em frase.
     //Encontre a palavra mais longa da frase e imprima a palavra usando cout.
     
+    const int MAX_LENGTH = 100;
+    char frase[MAX_LENGTH];
 
+    cout << "Digite uma frase: ";
+    cin.getline(frase, MAX_LENGTH);
+
+    istringstream iss(frase); 
+
+    string palavra;
+    string palavra_mais_longa;
+
+    while (iss >> palavra) {
+        if (palavra.length() > palavra_mais_longa.length()) {
+            palavra_mais_longa = palavra;
+        }
+    }
+
+    cout << "A palavra mais longa na frase é: " << palavra_mais_longa << endl;
 
     return 0;
 }
-
-
-
 
 
 int main(){
